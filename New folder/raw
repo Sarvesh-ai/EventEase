@@ -1,0 +1,142 @@
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-logo" href="index.html" >
+			<img src="images/EventEase.jpg" alt="EventEase" style="height: 74px; width: 222px; border-radius: 12px;">
+		  </a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span>Menu</button>
+			<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="profile-nav" >
+				<span class="fa-regular fa-user"></span></button> -->
+
+
+				
+		  <!-- <span class="ngobal-nav-text-container">
+			<span class="globalnav-image-regular globalnav-link-image">
+			</span>
+			<span class="globalnav-link-image">
+				<i class="fa-regular fa-user">
+					<link rel="stylesheet" href="">
+				</i>
+			 </span>
+		</span> -->
+		  
+
+	      
+	    </div>
+		<div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+				<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+				<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+				<li class="nav-item"><a href="bookings.html" class="nav-link">Bookings</a></li>
+			  <!-- <li class="nav-item"><a href="about.html" class="nav-link">About</a></li> -->
+				<li class="nav-item"><a href="schedule.html" class="nav-link">Schedule</a></li>
+				<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+				<!-- <button class="navbar-frofile" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	    profile
+		</button> -->
+	        </ul>
+	      </div>
+		  <!-- <div class="navbar-profile">
+			<div class="profile-container mt-5">
+				<span class="fa-regular fa-user"></span>
+				<div class="profile-info">
+					<strong>Username</strong><br>
+					<span>Profile Info</span>
+				</div>
+			</div>
+		</div> -->
+	  </nav>
+
+
+
+
+
+
+
+
+
+      <!-- location -->
+				<div class="location">
+					<div>Location</div>
+					<div style="display: flex;">
+						<i class="fa-solid fa-location-dot" style="margin-right: 6px; margin-top: 5px;"></i>
+						<p class="add-second ">
+						<p class="no-pointer">
+							<li class="nav-item "><a id="toggleMenu()" onclick="toggleMenu()"
+									class="nav-link">Select location</a></li>
+						</p>
+						<!-- <li class="nav-item" id="toggleButton" onclick="toggleMenu()">Select Location</li> -->
+						<div id="floatingMenu">
+							<ul>
+								<li><a href="#">
+										<form>
+											<div class="form-group col-md-4">
+												<label for="inputState">State</label>
+												<select class="form-control" id="inputState">
+													<option value="SelectState">Select State</option>
+													<option value="Andra Pradesh">Andra Pradesh</option>
+													<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+													<option value="Assam">Assam</option>
+													<option value="Bihar">Bihar</option>
+													<option value="Chhattisgarh">Chhattisgarh</option>
+													<option value="Goa">Goa</option>
+													<option value="Gujarat">Gujarat</option>
+													<option value="Haryana">Haryana</option>
+													<option value="Himachal Pradesh">Himachal Pradesh</option>
+													<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+													<option value="Jharkhand">Jharkhand</option>
+													<option value="Karnataka">Karnataka</option>
+													<option value="Kerala">Kerala</option>
+													<option value="Madya Pradesh">Madya Pradesh</option>
+													<option value="Maharashtra">Maharashtra</option>
+													<option value="Manipur">Manipur</option>
+													<option value="Meghalaya">Meghalaya</option>
+													<option value="Mizoram">Mizoram</option>
+													<option value="Nagaland">Nagaland</option>
+													<option value="Orissa">Orissa</option>
+													<option value="Punjab">Punjab</option>
+													<option value="Rajasthan">Rajasthan</option>
+													<option value="Sikkim">Sikkim</option>
+													<option value="Tamil Nadu">Tamil Nadu</option>
+													<option value="Telangana">Telangana</option>
+													<option value="Tripura">Tripura</option>
+													<option value="Uttaranchal">Uttaranchal</option>
+													<option value="Uttar Pradesh">Uttar Pradesh</option>
+													<option value="West Bengal">West Bengal</option>
+													<option disabled style="background-color:#aaa; color:#fff">UNION
+														Territories</option>
+													<option value="Andaman and Nicobar Islands">Andaman and Nicobar
+														Islands</option>
+													<option value="Chandigarh">Chandigarh</option>
+													<option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli
+													</option>
+													<option value="Daman and Diu">Daman and Diu</option>
+													<option value="Delhi">Delhi</option>
+													<option value="Lakshadeep">Lakshadeep</option>
+													<option value="Pondicherry">Pondicherry</option>
+												</select>
+											</div>
+											<div class="form-group col-md-4">
+												<label for="inputDistrict">District</label>
+												<select class="form-control" id="inputDistrict">
+													<option value="">-- select one -- </option>
+												</select>
+											</div>
+	
+										</form>
+									</a></li>
+							</ul>
+						</div>
+						<script>
+							function toggleMenu() {
+								const menu = document.getElementById('floatingMenu');
+								if (menu.style.display === 'none' || menu.style.display === '') {
+									menu.style.display = 'block'; // Show menu
+								} else {
+									menu.style.display = 'none'; // Hide menu
+								}
+							}
+						</script>
+						</p>
+					</div>
+				</div>

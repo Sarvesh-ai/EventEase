@@ -1,0 +1,420 @@
+
+<style>
+    
+    .service {
+        display: none;
+    }
+    .active {
+        display: block;
+    }
+    
+    </style>
+    <section id="services" class="service section ftco-section ftco-degree-bg">
+        <div class="container">
+            <div class="row" data-aos="fade-up">
+                <div class="col-md-8 order-md-last ftco-animate">
+                    <!-- <div class="tag-widget post-tag-container mb-5 mt-5" style="margin-left: 80px;">
+                        <div class="tagcloud" >
+                          <a href="#" class="tag-cloud-link">Wedding</a>
+                          <a href="#" class="tag-cloud-link">Birthday Party</a>
+                          <a href="#" class="tag-cloud-link">Engagement</a>
+                          <a href="#" class="tag-cloud-link">Corporate Event</a>
+                        </div>
+                      </div> -->
+                    <div class="pt-5 mt-5">
+                        
+    
+    
+                        <!-- profiles -->
+                        <div class="service-items">
+                          <div id="Photography" class="service">
+                            <div class="ftco-animate service-1 d-flex align-items-center mb-5 filter-P">
+                              <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+                              <div class="text pl-4">
+                                <h3>Dcphotography</h3>
+                                <div>
+                                  4.0 Ratings
+                                </div>
+                                <span class="position "></span>
+                                <p class="service-location">
+                                  <i class="fa-solid fa-location-dot"></i>
+                                  Delhi gate, ahmednagar
+                                </p>
+                                <ul class="ftco-social">
+                                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                                  <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+                                  <li><a href="#"><span class="icon-phone"></span></a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                            
+                            <div id="Venue" class="service ftco-animate service-1 d-flex align-items-center mb-5 filter-V">
+                              <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+                              <div class="text pl-4">
+                                <h3>Sanjog Lawns</h3>
+                                <div>
+                                  4.0 Ratings
+                                </div>
+                                <span class="position "></span>
+                                <p class="service-location">
+                                  <i class="fa-solid fa-location-dot"></i>
+                                  Sawedi, ahmednagar
+                                </p>
+                                <ul class="ftco-social">
+                                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                                  <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+                                  <li><a href="#"><span class="icon-phone"></span></a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            
+                            <div id="Decoration" class="service ftco-animate service-1 d-flex align-items-center mb-5 filter-V">
+                              <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+                              <div class="text pl-4">
+                                <h3>Decoration</h3>
+                                <div>
+                                  4.0 Ratings
+                                </div>
+                                <span class="position "></span>
+                                <p class="service-location">
+                                  <i class="fa-solid fa-location-dot"></i>
+                                  Delhi gate, ahmednagar
+                                </p>
+                                <ul class="ftco-social">
+                                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                                  <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+                                  <li><a href="#"><span class="icon-phone"></span></a></li>
+                                </ul>
+                              </div>
+                            </div>
+                            
+                            <div id="Anchor" class="service ftco-animate service-1 d-flex align-items-center mb-5 filter-V">
+                              <div id="Photography" class="img" style="background-image: url('images/services/dcp.png');"></div>
+                              <div class="text pl-4">
+                                <h3>Dcphotography</h3>
+                                <div>
+                                  4.0 Ratings
+                                </div>
+                                <span class="position "></span>
+                                <p class="service-location">
+                                  <i class="fa-solid fa-location-dot"></i>
+                                  Delhi gate, ahmednagar
+                                </p>
+                                <ul class="ftco-social">
+                                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                                  <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+                                  <li><a href="#"><span class="icon-phone"></span></a></li>
+                                </ul>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- .col-md-8 -->
+                <div class="col-md-4 sidebar ftco-animate">
+                    <!-- <div class="sidebar-box">
+                        <form action="#" class="search-form" style="display: inline-block;">
+                          <div class="form-group">
+                            <span class="icon icon-search" style=" margin-left: 10px;"></span>
+                            <input type="text" class="form-control" placeholder="Type a keyword" >
+                          </div>
+                        </form>
+                      </div> -->
+                        <div class="sidebar-box ftco-animate ">
+                                <h3>Select the services!</h3>
+    
+                                <li class="button" onclick="showContent('Photography')"><a href="#">Photography <span>(22)</span></a></li>
+                                <li class="button" onclick="showContent('Venue')"><a href="#">Venue <span>(12)</span></a></li>
+                                <li class="button" onclick="showContent('Decoration')"><a href="#">Decoration <span>(37)</span></a></li>
+                                <li class="button" onclick="showContent('Sound')"><a href="#">Sound <span>(42)</span></a></li>
+                                <li class="button" onclick="showContent('Catering')"><a href="#">Catering <span>(14)</span></a></li>
+                                <li class="button" onclick="showContent('Anchor')"><a href="#">Anchor <span>(140)</span></a></li>           
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <script>
+        function showContent(service) {
+            // Hide all content sections
+            var contents = document.querySelectorAll('.service');
+            contents.forEach(function(service) {
+                service.classList.remove('active');
+            });
+            
+            // Show the selected category
+            document.getElementById(service).classList.add('active');
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- sign up -->
+<div class="signin">
+  <a id="toggleLogin()" onclick="toggleLogin()" class="registration btn btn-primary">Sign Up</a>
+  <div id="floatingLogin">
+    <div class="wrapper">
+      <input type="radio" name="formToggle" id="register" checked>
+      <input type="radio" name="formToggle" id="login">
+
+      <!-- Registration Form -->
+      <form  action="/register" method="POST" class="register" id="registrationForm">
+
+        <h2 for="register" class="register-title">Registration</h2>
+        <div class="input-box">
+          <input type="text" name="username" placeholder="Enter your name" required>
+        </div>
+        <div class="input-box">
+          <input type="tel" name="phone" placeholder="Enter your Phone" required pattern="[0-9]{10}">
+        </div>									
+        <div class="input-box">
+          <input type="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="input-box">
+          <input type="password" name="password" placeholder="Create password" required>
+        </div>
+        <div class="input-box">
+          <input type="password" name="confirm_password" placeholder="Confirm password" required>
+        </div>
+        <div class="policy">
+          <input type="checkbox">
+          <h3>I accept all terms & conditions</h3>
+        </div>
+        <div class="input-box button">
+          <input type="submit" value="Register Now">
+        </div>
+        <div class="text">
+          <h3>Already have an account? <label for="login" style="cursor: pointer;">Login now</label></h3>
+        </div>
+      </form>
+
+      <!-- Login Form -->
+      <form action="/login" method="POST" class="login-form">
+
+        <h2 for="register" class="register-title">
+          login</h2>
+        <div class="input-box">
+          <input type="text" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="input-box">
+          <input type="password" name="password" placeholder="Enter password" required>
+        </div>
+        <div class="input-box button">
+          <input type="submit" value="Login Now">
+        </div>
+        <div class="text">
+          <h3>Don’t have an account? <label for="register" style="cursor: pointer;">Register now</label></h3>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script>
+    function toggleLogin() {
+      const menu = document.getElementById('floatingLogin');
+      if (menu.style.display === 'none' || menu.style.display === '') {
+        menu.style.display = 'block'; // Show menu
+      }
+      else {
+        menu.style.display = 'none'; // Hide menu
+      }
+    }
+  </script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="Photography" class="content">
+  <div class="service ftco-animate service-1 d-flex align-items-center mb-5 ">
+    <!-- <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+    <div class="text pl-4">
+      <h2>Dcphotography</h2>
+      <div class="ratings">
+        4.0 Ratings
+      </div>
+      <span class="position "></span>
+      <p class="s-location">
+        <i class="fa-solid fa-location-dot"></i>
+        Delhi gate, ahmednagar
+      </p>
+      <ul class="social-icon ftco-social">
+        <li><a ><span class="icon-instagram"></span></a></li>
+        <li><a ><span class="icon-whatsapp"></span></a></li>
+        <li><a ><span class="icon-phone"></span></a></li>
+      </ul>
+    </div> -->
+  
+  <ul>
+    {% for service in services %}
+        <li>
+            <strong>Brand Name:</strong> {{ service.brand_name }}<br>
+            <strong>Email:</strong> {{ service.email }}<br>
+            <strong>Phone:</strong> {{ service.phone }}<br>
+            <strong>Location:</strong> {{ service.location }}<br>
+            <hr>
+        </li>
+    {% endfor %}
+</ul>
+</div>
+</div>
+
+<div id="Venue" class="content">
+  <div class="service ftco-animate service-1 d-flex align-items-center mb-5 ">
+    <div class="img" style="background-image: url('../static/images/services/dcp.png');"></div>
+    <div class="text pl-4">
+      <h2>Mauli Lawns</h2>
+      <div class="ratings">
+        <style>
+          .rating-display {
+              display: inline-flex;
+              align-items: center;
+              gap: 5px;
+              font-size: 20px; /* Size of the star icons */
+              color: #FFD700; /* Gold color for the stars */
+              font-weight: bold;
+          }
+  
+          .rating-text {
+              color: #4CAF50; /* Green color for the rating text */
+              margin-left: 10px;
+              font-size: 16px;
+          }
+      </style>
+  </head>
+  <body>
+  
+      <!-- Star Rating Display -->
+      <div class="rating-display">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-alt"></i> <!-- Half star rating -->
+          <span class="rating-text">4.0 Ratings</span>
+      </div>
+
+
+
+        <!-- 4.0 Ratings -->
+      </div>
+      <span class="position "></span>
+      <p class="s-location">
+        <i class="fa-solid fa-location-dot"></i>
+        Delhi gate, ahmednagar
+      </p>
+      <ul class="social-icon ftco-social">
+        <li><a ><span class="icon-instagram"></span></a></li>
+        <li><a ><span class="icon-whatsapp"></span></a></li>
+        <li><a ><span class="icon-phone"></span></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="service ftco-animate service-1 d-flex align-items-center mb-5">
+    <div class="img" style="background-image: url('../static/images/services/dcp.png');"></div>
+    <div class="text pl-4">
+      <h2>Sanjog Lawns</h2>
+      <div class="ratings">
+        4.0 Ratings
+      </div>
+      <span class="position "></span>
+      <p class="s-location">
+        <i class="fa-solid fa-location-dot"></i>
+        Sawedi, ahmednagar
+      </p>
+      <ul class="social-icon ftco-social">
+        <li><a ><span class="icon-instagram"></span></a></li>
+        <li><a ><span class="icon-whatsapp"></span></a></li>
+        <li><a ><span class="icon-phone"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="Decoration" class="content">
+  <div class="service ftco-animate service-1 d-flex align-items-center mb-5">
+    <div class="img" style="background-image: url('../static/images/services/dcp.png');"></div>
+    <div class="text pl-4">
+      <h3>Decoration</h3>
+      <div>
+        4.0 Ratings
+      </div>
+      <span class="position "></span>
+      <p class="service-location">
+        <i class="fa-solid fa-location-dot"></i>
+        Delhi gate, ahmednagar
+      </p>
+      <ul class="social-icon ftco-social">
+        <li><a ><span class="icon-instagram"></span></a></li>
+        <li><a ><span class="icon-whatsapp"></span></a></li>
+        <li><a ><span class="icon-phone"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- location -->
+
+<a class="navbar-location" style=" display: inline-block;">
+				
+  <div class="location">
+    <a>Location</a>
+    <div class="add-second "style="position: relative;right: 10px;" >
+      <a class="no-pointer">
+        <a id="toggleMenu()" onclick="toggleMenu()" class="nav-link" style=" position: relative; right: 1px; cursor: pointer; display: inline-block;">
+          <i class="fa-solid fa-location-dot">
+          </i>
+          <a id="output1"></a> <a id="output"></a>
+          </a>
+        </a>
+      <div id="floatingMenu">
+        <ul>
+          
+        </ul>
+      </div>
+      <script>
+        function toggleMenu() {
+          const menu = document.getElementById('floatingMenu');
+          if (menu.style.display === 'none' || menu.style.display === '') {
+            menu.style.display = 'block'; // Show menu
+          }
+          else {
+            menu.style.display = 'none'; // Hide menu
+          }
+        }
+      </script>	
+    </div>
+  </div>
+</a>

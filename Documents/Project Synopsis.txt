@@ -1,0 +1,9 @@
+EventEase
+Event management software using python
+
+1. Introduction
+	Welcome to EventEase – your ultimate solution for seamless event management! Whether you’re planning a grand wedding, an unforgettable birthday bash, or a charming baby shower, EventEase is here to simplify and enhance every step of your event planning journey.
+
+Developed with the power of Python, EventEase is designed to handle all your event needs with ease and precision. Our intuitive interface lets you effortlessly organize guest lists, manage schedules, track budgets, and coordinate with vendors, all from one central hub.
+
+Say goodbye to the stress of juggling multiple spreadsheets and scattered notes. With EventEase, you’ll have all the tools you need to create flawless events that leave lasting memories. Dive into a world of efficient event management and make every occasion extraordinary with EventEase!

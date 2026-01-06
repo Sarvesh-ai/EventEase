@@ -1,0 +1,476 @@
+/* body {
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+
+    background-color: #282c34;
+    color: white;
+} */
+/*
+.navbar {
+    height: 80px;
+    align-items: center;    
+} */
+/* 
+.logo {
+    background-image: url("EventEase.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 170px;
+    font-size: 24px; 
+    font-weight: bold; */
+/* }
+.search-bar {
+    margin-left: 10px;
+    margin-right: 500px;
+}
+
+.nav-location {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.add-first {
+    color: white;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    display: flex;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 1px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+}  */
+
+
+
+
+
+
+/* button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #61dafb;
+    color: black;
+    cursor: pointer;
+} */
+/* 
+button:hover {
+    background-color: #21a1f1;
+}
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    /* Hides horizontal scrollbar */
+}
+
+@media (max-width: 768px) {
+    /* Styles for mobile */
+}
+
+@media (min-width: 769px) {
+    /* Styles for tablet and up */
+}
+
+
+.header {
+    color: bisque;
+    width: 1000px;
+    background-color: #282c34;
+    color: white;
+}
+
+.navbar {
+    display:flex;
+    align-items: center;
+}
+
+/* 
+.nav-location {
+    font-size: 18px;
+    margin-left: 19px;
+    align-items: center;
+    margin-right: 19px;
+}
+.add-first {
+    color: white;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    display: flex;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+
+.add-icon {
+    margin-left: 3px;
+    display: flex;
+
+} */
+
+.testimony-section{
+    margin-top: 150px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    margin-left: 100%;
+    /* right: 200px; */
+    content: "";
+
+}
+
+.menu li {
+    flex: 1;
+}
+
+.menu li a {
+    /* display: block; */
+    text-align: center;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+
+.service-location{
+    width: 200px;
+}
+
+
+
+
+
+/* .img{
+    height: auto;
+    width: 224px;
+    align-items: center;
+} */
+
+
+/* .service {
+    display: none;
+} */
+/* .active {
+    display: block;
+} */
+
+
+.navbar-container {
+    position:relative;
+    display: inline-block;
+}
+.location{
+    height: 70px;
+    /* position:fixed; */
+    /* right: 10px; */
+}
+
+
+
+
+
+
+				
+#floatingMenu {
+    display: none; /* Initially hidden */
+    /* position: fixed; Fixed position */
+    top: 110px; /* Distance from top */
+     /* Distance from right */
+    background-color: #f9f9f9; /* Background color */
+    border: 1px solid #ccc; /* Border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+    padding: 15px; 
+    z-index: 1000; /* On top of other elements */
+    border-radius: 18px;
+}
+#toggleButton {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.registration{
+    display: block;
+    cursor: pointer;
+}
+
+.login{
+    display: block;
+    cursor: pointer;
+}						
+#floatingLogin {
+    display: none; /* Initially hidden */
+    /* position: fixed; Fixed position */
+    margin-left: auto;
+    margin-right: auto;
+    top:  80px; /* Distance from top */
+    right: 500px; /* Distance from right */
+    background-color: #f9f9f9; /* Background color */
+    border: 1px solid #ccc; /* Border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+    padding: 15px; 
+    z-index: 1000; /* On top of other elements */
+    border-radius: 18px;
+}
+#toggleButton {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* 
+.comment{
+    margin-top: 400px;
+} */
+
+.form-control{
+    width: 400px;
+}
+.toggle:checked + .menu {
+    display: block;
+}
+
+
+
+
+                                        /* Login */
+.signin{
+    height: 40px;
+    position: relative;
+    top: 9px;
+}                                    
+
+.wrapper,.login{
+  position: relative;
+  max-width: 430px;
+  width: 500px;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+  /* box-shadow: 0 5px 10px rgba(0,0,0,0.2); */
+}
+.wrapper h2{
+  position: relative;
+  font-size: 25px;
+  font-weight: 600;
+  color: #333;
+}
+.wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: #4070f4;
+}
+.wrapper form{
+  margin-top: 30px;
+}
+.wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-block:  2px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.input-box input:focus,
+.input-box input:valid{
+  border-color: #4070f4;
+}
+form .policy{
+  display: flex;
+  align-items: center;
+}
+form h3{
+  color: #707070;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.input-box.button input{
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background: #4070f4;
+  cursor: pointer;
+}
+.input-box.button input:hover{
+  background: #0e4bf1;
+}
+form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: center;
+}
+form .text h3 a{
+  color: #4070f4;
+  text-decoration: none;
+}
+form .text h3 a:hover{
+  text-decoration: underline;
+}
+
+
+
+input[type="radio"] {
+    display: none;
+  }
+  .register-form, .login-form {
+    display: none;
+  }
+  #register:checked ~ .register-form {
+    display: block;
+  }
+  #login:checked ~ .login-form {
+    display: block;
+  }
+
+
+.social-icon{
+    cursor: pointer;
+}
+
+
+
+.addservice .form-control{
+    border-radius: 14px;
+
+}
+
+
+.
+
+
+
+                                                /* profile */
+
+/* Profile Icon Styling */
+.profile-icon img {
+    /* border: 2px solid #f8f9fa; Matches the navbar background */
+    transition: transform 0.2s ease;
+}
+
+.profile-icon:hover img {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    min-width: 180px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-item {
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa; /* Subtle hover effect */
+    color: #007bff;          /* Matches Bootstrap primary color */
+}
+
+.dropdown-item.text-danger {
+    color: #dc3545; /* Bootstrap danger color for Logout */
+}
+
+.dropdown-item.text-danger:hover {
+    background-color: #f8d7da; /* Subtle danger hover background */
+}
+
+
+
+
+
+
+/* for review stars */
+.stars {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .stars i {
+    font-size: 30px;
+    color: #ccc;
+    /* Default color for empty stars */
+  }
+
+  .stars i.filled {
+    color: #f5c518;
+    /* Color for filled stars */
+  }
+
+
+
+                                                    /* booking */
+/* Centering the container and applying consistent spacing */
+
+  
+  /* Styling each booking card */
+  .booking-card {
+    padding: 20px;
+    width: 400px; /* Set a fixed width for uniformity */
+  }
+  
+  /* Adjusting the heading alignment */
+  .text-center {
+    text-align: center;
+  }
+  .booking-card .social-icon{
+    display: flex;
+    gap: 20px; 
+    list-style-type: none; 
+    padding-left: 0;
+    font-size: 28px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .social-icon li {
+    margin-right: 10px; /* Adds space between icons */
+  }
+
+
+
+
+
+

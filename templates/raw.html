@@ -1,0 +1,661 @@
+<!-- <h2>Select an option:</h2>
+    <select id="mySelect">
+        <optiontion1">Option 1</option>
+        <optiontion2">Option 2</option>
+        <optiontion3">Option 3</option>
+    </select>
+
+    <button onclick="printSelected()">Print Selected Option</button>
+
+    <p id="output"></p>
+
+    <script>
+        function printSelected() {
+            var select = document.getElementById("mySelect");
+            var selectedValue = select.options[select.selectedIndex].text;
+            document.getElementById("output").innerText = "You selected: " + selectedValue;
+        }
+    </script> -->
+
+
+
+<!-- 
+   <select id="mySelect" onchange="printSelected()">
+            <optiontion1">Option 1</option>
+            <optiontion2">Option 2</option>
+            <optiontion3">Option 3</option>
+        </select>
+    
+        <p id="output"></p>
+    
+        <script>
+            function printSelected() {
+                var select = document.getElementById("mySelect");
+                var selectedValue = select.options[select.selectedIndex].text;
+                document.getElementById("output").innerText = "You selected: " + selectedValue;
+            }
+        </script>     -->
+
+
+
+        
+                    <!-- <div class="comment-form-wrap pt-5">
+                      <h3 class="mb-5">Leave a comment</h3>
+                      <form action="#" class="p-5 bg-light">
+                        <div class="form-group">
+                          <label for="name">Name *</label>
+                          <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email *</label>
+                          <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                          <label for="website">Website</label>
+                          <input type="url" class="form-control" id="website">
+                        </div>
+                    
+                        <div class="form-group">
+                          <label for="message">Message</label>
+                          <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group">
+                          <input type="submit"st Comment" class="btn py-3 px-4 btn-primary">
+                        </div>
+      
+                      </form>
+                    </div> -->
+
+
+                    <!--<h3 class="mb-5">6 Comments</h3>
+                     <ul class="comment-list">
+                      <li class="comment">
+                        <div class="vcard bio">
+                          <img src="images/person_1.jpg" alt="Image placeholder">
+                        </div>
+                        <div class="comment-body">
+                          <h3>John Doe</h3>
+                          <div class="meta">October 03, 2018 at 2:21pm</div>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                          <p><a href="#" class="reply">Reply</a></p>
+                        </div>
+                      </li>
+      
+                      <li class="comment">
+                        <div class="vcard bio">
+                          <img src="images/person_1.jpg" alt="Image placeholder">
+                        </div>
+                        <div class="comment-body">
+                          <h3>John Doe</h3>
+                          <div class="meta">October 03, 2018 at 2:21pm</div>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                          <p><a href="#" class="reply">Reply</a></p>
+                        </div>
+      
+                        <ul class="children">
+                          <li class="comment">
+                            <div class="vcard bio">
+                              <img src="images/person_1.jpg" alt="Image placeholder">
+                            </div>
+                            <div class="comment-body">
+                              <h3>John Doe</h3>
+                              <div class="meta">October 03, 2018 at 2:21pm</div>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                              <p><a href="#" class="reply">Reply</a></p>
+                            </div>
+      
+      
+                            <ul class="children">
+                              <li class="comment">
+                                <div class="vcard bio">
+                                  <img src="images/person_1.jpg" alt="Image placeholder">
+                                </div>
+                                <div class="comment-body">
+                                  <h3>John Doe</h3>
+                                  <div class="meta">October 03, 2018 at 2:21pm</div>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                                  <p><a href="#" class="reply">Reply</a></p>
+                                </div>
+      
+                                  <ul class="children">
+                                    <li class="comment">
+                                      <div class="vcard bio">
+                                        <img src="images/person_1.jpg" alt="Image placeholder">
+                                      </div>
+                                      <div class="comment-body">
+                                        <h3>John Doe</h3>
+                                        <div class="meta">October 03, 2018 at 2:21pm</div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                                        <p><a href="#" class="reply">Reply</a></p>
+                                      </div>
+                                    </li>
+                                  </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+      
+                      <li class="comment">
+                        <div class="vcard bio">
+                          <img src="images/person_1.jpg" alt="Image placeholder">
+                        </div>
+                        <div class="comment-body">
+                          <h3>John Doe</h3>
+                          <div class="meta">October 03, 2018 at 2:21pm</div>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                          <p><a href="#" class="reply">Reply</a></p>
+                        </div>
+                      </li>
+                    </ul> -->
+                    <!-- END comment-list -->
+
+
+<!-- 
+<style>
+  .content {
+    display: none;
+  }
+
+  .active {
+    display: block;
+  }
+
+</style>
+
+<div class="sidebar-box ftco-animate ">
+  <h3>Select the services!</h3>
+
+  <li class="button" onclick="showContent('Photography')"><a href="#">Photography <span>(22)</span></a></li>
+  <li class="button" onclick="showContent('Venue')"><a href="#">Venue <span>(12)</span></a></li>
+  <li class="button" onclick="showContent('Decoration')"><a href="#">Decoration <span>(37)</span></a></li>
+  <li class="button" onclick="showContent('Sound')"><a href="#">Sound <span>(42)</span></a></li>
+  <li class="button" onclick="showContent('Catering')"><a href="#">Catering <span>(14)</span></a></li>
+  <li class="button" onclick="showContent('Anchor')"><a href="#">Anchor <span>(140)</span></a></li>           
+</div>
+Content sections for each category
+<div id="Photography" class="content">
+    <div class="ftco-animate service-1 d-flex align-items-center mb-5 ">
+      <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+      <div class="text pl-4">
+        <h3>Dcphotography</h3>
+        <div>
+          4.0 Ratings
+        </div>
+        <span class="position "></span>
+        <p class="service-location">
+          <i class="fa-solid fa-location-dot"></i>
+          Delhi gate, ahmednagar
+        </p>
+        <ul class="ftco-social">
+          <li><a href="#"><span class="icon-instagram"></span></a></li>
+          <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+          <li><a href="#"><span class="icon-phone"></span></a></li>
+        </ul>
+      </div>
+    </div>
+</div>
+
+<div id="Venue" class="content">
+  <div class=" ftco-animate service-1 d-flex align-items-center mb-5 filter-V">
+    <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+    <div class="text pl-4">
+      <h3>Sanjog Lawns</h3>
+      <div>
+        4.0 Ratings
+      </div>
+      <span class="position "></span>
+      <p class="service-location">
+        <i class="fa-solid fa-location-dot"></i>
+        Sawedi, ahmednagar
+      </p>
+      <ul class="ftco-social">
+        <li><a href="#"><span class="icon-instagram"></span></a></li>
+        <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+        <li><a href="#"><span class="icon-phone"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="Decoration" class="content">
+  <div class="ftco-animate service-1 d-flex align-items-center mb-5">
+    <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+    <div class="text pl-4">
+      <h3>Decoration</h3>
+      <div>
+        4.0 Ratings
+      </div>
+      <span class="position "></span>
+      <p class="service-location">
+        <i class="fa-solid fa-location-dot"></i>
+        Delhi gate, ahmednagar
+      </p>
+      <ul class="ftco-social">
+        <li><a href="#"><span class="icon-instagram"></span></a></li>
+        <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+        <li><a href="#"><span class="icon-phone"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  function showContent(category) {
+    // Hide all content sections
+    var contents = document.querySelectorAll('.content');
+    contents.forEach(function (content) {
+      content.classList.remove('active');
+    });
+
+    // Show the selected category
+    document.getElementById(category).classList.toggle('active');
+  }
+</script>
+
+
+
+
+
+
+
+
+
+<section id="service" class="service section ftco-section ftco-degree-bg">
+  <div class="container">
+    <div class="row" data-aos="fade-up"> 
+      <div class="col-md-8 order-md-last ftco-animate">
+       <div class="tag-widget post-tag-container mb-5 mt-5" style="margin-left: 80px;">
+          <div class="tagcloud" >
+            <a href="#" class="tag-cloud-link">Wedding</a>
+            <a href="#" class="tag-cloud-link">Birthday Party</a>
+            <a href="#" class="tag-cloud-link">Engagement</a>
+            <a href="#" class="tag-cloud-link">Corporate Event</a>
+          </div>
+        </div>
+        <div class="pt-5 mt-5">
+
+
+          
+          profiles 
+          <div class="service-items">
+                  <div class="service ftco-animate service-1 d-flex align-items-center mb-5 filter-P">
+                    <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+                    <div class="text pl-4">
+                      <h3>Dcphotography</h3>
+                      <div>
+                        4.0  Ratings
+                      </div>
+                      <span class="position "></span>
+                      <p class="service-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Delhi gate, ahmednagar</p>
+                      <ul class="ftco-social">
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+                        <li><a href="#"><span class="icon-phone"></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="service ftco-animate service-1 d-flex align-items-center mb-5 filter-V">
+                    <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+                    <div class="text pl-4">
+                      <h3>Sanjog Lawns</h3>
+                      <div>
+                        4.0  Ratings
+                      </div>
+                      <span class="position "></span>
+                      <p class="service-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Sawedi, ahmednagar</p>
+                      <ul class="ftco-social">
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+                        <li><a href="#"><span class="icon-phone"></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="service ftco-animate service-1 d-flex align-items-center mb-5 filter-V">
+                    <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+                    <div class="text pl-4">
+                      <h3>Dcphotography</h3>
+                      <div>
+                        4.0  Ratings
+                      </div>
+                      <span class="position "></span>
+                      <p class="service-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Delhi gate, ahmednagar</p>
+                      <ul class="ftco-social">
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+                        <li><a href="#"><span class="icon-phone"></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="service ftco-animate service-1 d-flex align-items-center mb-5 filter-V">
+                    <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+                    <div class="text pl-4">
+                      <h3>Dcphotography</h3>
+                      <div>
+                        4.0  Ratings
+                      </div>
+                      <span class="position "></span>
+                      <p class="service-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Delhi gate, ahmednagar</p>
+                      <ul class="ftco-social">
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+                        <li><a href="#"><span class="icon-phone"></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+          </div>
+          
+          <div class="comment-form-wrap pt-5">
+            <h3 class="mb-5">Leave a comment</h3>
+            <form action="#" class="p-5 bg-light">
+              <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="website">Website</label>
+                <input type="url" class="form-control" id="website">
+              </div>
+          
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div> 
+      .col-md-8
+      <div class="col-md-4 sidebar ftco-animate">
+        <div class="sidebar-box">
+          <form action="#" class="search-form" style="display: inline-block;">
+            <div class="form-group">
+              <span class="icon icon-search" style=" margin-left: 10px;"></span>
+              <input type="text" class="form-control" placeholder="Type a keyword" >
+            </div>
+          </form>
+        </div>
+        <div class="row" data-aos="fade-up">
+        <div class="sidebar-box ftco-animate " >
+
+          <ul class="categories-filters">
+
+            <h3>Select the services!</h3>
+            <li data-filter="*" class="filter-active" >All</li>
+            <li data-filter=".filter-V"><a href="#">Venue <span>(12)</span></a></li>
+            <li data-filter=".filter-P"><a href="#">Photography <span>(22)</span></a></li>
+            <li data-filter=".filter-D"><a href="#">Decoration <span>(37)</span></a></li>
+            <li data-filter=".filter-S"><a href="#">Sound <span>(42)</span></a></li>
+            <li data-filter=".filter-C"><a href="#">Cateroring <span>(14)</span></a></li>
+            <li data-filter=".filter-A"><a href="#">Anchor <span>(140)</span></a></li>
+            </ul>
+        </div>
+        <div
+        class="row section-container "
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+      </div>
+    </div>
+  </div>
+</section>
+
+previous services
+
+<section id="service" class="service section ftco-section ftco-degree-bg">
+  <div class="container">
+    <div class="row" data-aos="fade-up"> 
+      <div class="col-md-8 order-md-last ftco-animate">
+       <div class="tag-widget post-tag-container mb-5 mt-5" style="margin-left: 80px;">
+          <div class="tagcloud" >
+            <a href="#" class="tag-cloud-link">Wedding</a>
+            <a href="#" class="tag-cloud-link">Birthday Party</a>
+            <a href="#" class="tag-cloud-link">Engagement</a>
+            <a href="#" class="tag-cloud-link">Corporate Event</a>
+          </div>
+        </div>
+        <div class="pt-5 mt-5">
+          <h3 class="mb-5">6 Comments</h3>
+           <ul class="comment-list">
+            <li class="comment">
+              <div class="vcard bio">
+                <img src="images/person_1.jpg" alt="Image placeholder">
+              </div>
+              <div class="comment-body">
+                <h3>John Doe</h3>
+                <div class="meta">October 03, 2018 at 2:21pm</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                <p><a href="#" class="reply">Reply</a></p>
+              </div>
+            </li>
+
+            <li class="comment">
+              <div class="vcard bio">
+                <img src="images/person_1.jpg" alt="Image placeholder">
+              </div>
+              <div class="comment-body">
+                <h3>John Doe</h3>
+                <div class="meta">October 03, 2018 at 2:21pm</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                <p><a href="#" class="reply">Reply</a></p>
+              </div>
+
+              <ul class="children">
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/person_1.jpg" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>John Doe</h3>
+                    <div class="meta">October 03, 2018 at 2:21pm</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <p><a href="#" class="reply">Reply</a></p>
+                  </div>
+
+
+                  <ul class="children">
+                    <li class="comment">
+                      <div class="vcard bio">
+                        <img src="images/person_1.jpg" alt="Image placeholder">
+                      </div>
+                      <div class="comment-body">
+                        <h3>John Doe</h3>
+                        <div class="meta">October 03, 2018 at 2:21pm</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                        <p><a href="#" class="reply">Reply</a></p>
+                      </div>
+
+                        <ul class="children">
+                          <li class="comment">
+                            <div class="vcard bio">
+                              <img src="images/person_1.jpg" alt="Image placeholder">
+                            </div>
+                            <div class="comment-body">
+                              <h3>John Doe</h3>
+                              <div class="meta">October 03, 2018 at 2:21pm</div>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                              <p><a href="#" class="reply">Reply</a></p>
+                            </div>
+                          </li>
+                        </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="comment">
+              <div class="vcard bio">
+                <img src="images/person_1.jpg" alt="Image placeholder">
+              </div>
+              <div class="comment-body">
+                <h3>John Doe</h3>
+                <div class="meta">October 03, 2018 at 2:21pm</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                <p><a href="#" class="reply">Reply</a></p>
+              </div>
+            </li>
+          </ul> -->
+          <!-- END comment-list
+
+
+          
+          profiles
+          <div class="service-items">
+                  <div class="service ftco-animate service-1 d-flex align-items-center mb-5 filter-P">
+                    <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+                    <div class="text pl-4">
+                      <h3>Dcphotography</h3>
+                      <div>
+                        4.0  Ratings
+                      </div>
+                      <span class="position "></span>
+                      <p class="service-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Delhi gate, ahmednagar</p>
+                      <ul class="ftco-social">
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+                        <li><a href="#"><span class="icon-phone"></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="service ftco-animate service-1 d-flex align-items-center mb-5 filter-V">
+                    <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+                    <div class="text pl-4">
+                      <h3>Sanjog Lawns</h3>
+                      <div>
+                        4.0  Ratings
+                      </div>
+                      <span class="position "></span>
+                      <p class="service-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Sawedi, ahmednagar</p>
+                      <ul class="ftco-social">
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+                        <li><a href="#"><span class="icon-phone"></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="service ftco-animate service-1 d-flex align-items-center mb-5 filter-V">
+                    <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+                    <div class="text pl-4">
+                      <h3>Dcphotography</h3>
+                      <div>
+                        4.0  Ratings
+                      </div>
+                      <span class="position "></span>
+                      <p class="service-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Delhi gate, ahmednagar</p>
+                      <ul class="ftco-social">
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+                        <li><a href="#"><span class="icon-phone"></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="service ftco-animate service-1 d-flex align-items-center mb-5 filter-V">
+                    <div class="img" style="background-image: url('images/services/dcp.png');"></div>
+                    <div class="text pl-4">
+                      <h3>Dcphotography</h3>
+                      <div>
+                        4.0  Ratings
+                      </div>
+                      <span class="position "></span>
+                      <p class="service-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Delhi gate, ahmednagar</p>
+                      <ul class="ftco-social">
+                        <li><a href="#"><span class="icon-instagram"></span></a></li>
+                        <li><a href="#"><span class="icon-whatsapp"></span></a></li>
+                        <li><a href="#"><span class="icon-phone"></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+          </div>
+          <div class="comment-form-wrap pt-5">
+            <h3 class="mb-5">Leave a comment</h3>
+            <form action="#" class="p-5 bg-light">
+              <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="website">Website</label>
+                <input type="url" class="form-control" id="website">
+              </div>
+          
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div> 
+      .col-md-8
+      <div class="col-md-4 sidebar ftco-animate">
+        <div class="sidebar-box">
+          <form action="#" class="search-form" style="display: inline-block;">
+            <div class="form-group">
+              <span class="icon icon-search" style=" margin-left: 10px;"></span>
+              <input type="text" class="form-control" placeholder="Type a keyword" >
+            </div>
+          </form>
+        </div>
+        <div class="row" data-aos="fade-up">
+        <div class="sidebar-box ftco-animate " >
+
+          <ul class="categories-filters">
+
+            <h3>Select the services!</h3>
+            <li data-filter="*" class="filter-active" >All</li>
+            <li data-filter=".filter-V"><a href="#">Venue <span>(12)</span></a></li>
+            <li data-filter=".filter-P"><a href="#">Photography <span>(22)</span></a></li>
+            <li data-filter=".filter-D"><a href="#">Decoration <span>(37)</span></a></li>
+            <li data-filter=".filter-S"><a href="#">Sound <span>(42)</span></a></li>
+            <li data-filter=".filter-C"><a href="#">Cateroring <span>(14)</span></a></li>
+            <li data-filter=".filter-A"><a href="#">Anchor <span>(140)</span></a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</section> -->
+
+
+
+
